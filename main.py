@@ -5,7 +5,7 @@
 
 import random
 
-score_limit = 50
+score_limit = 100
 
 one_score = 0
 two_score = 0
@@ -73,6 +73,6 @@ if one_score >= score_limit:
     print()
     print("Player one is Victorious!!!!")
 
-elif two_score >= 100:
+elif two_score >= score_limit:
     print()
     print("Player two is Victorious!!!!")
